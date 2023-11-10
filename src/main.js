@@ -1,5 +1,11 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// importo il css di bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+// importo le regole javascript di bootstap
+import * as bootstrap from "bootstrap";
+
+import "./assets/scss/style.scss";
+
+createApp(App).mount("#app");
